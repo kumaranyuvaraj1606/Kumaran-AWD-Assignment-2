@@ -1,0 +1,82 @@
+/* ================= CSS ================= */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+.header {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header input {
+  padding: 12px;
+  width: 55%;
+  border-radius: 30px;
+  border: none;
+  margin-top: 10px;
+}
+
+.container { display: flex; }
+
+.sidebar {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  box-shadow: 3px 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+main { flex: 1; padding: 20px; }
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.job-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.apply-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.save-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin: 5px;
+}
